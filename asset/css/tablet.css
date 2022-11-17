@@ -1,0 +1,145 @@
+@media (min-width: 768px) and (max-width: 1024px) 
+{
+.header__nav {
+        width: 100%;
+    }
+    
+.header__intro {
+        width: 100%;
+        padding: 0 16px;
+     }  
+.intro__social {
+        font-size: 40px;
+        width: 80%;
+     }
+     /* about */  
+.about {
+        height: 1084px;
+     }
+.about__avatar {
+        height: 15em;
+        width: 100%;
+    }
+.about__avatar img {
+        width: 150px;
+        height: auto;
+        display: block;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+.about__descrip {
+        height: 45em;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 30px;
+        padding: 30px;  
+        box-shadow: -3px 6px 50px 11px rgba(0,0,0,0.1);
+        margin-left: 0;
+    }
+.about__descrip--cv {
+        height: 10em;
+        width: 100%;
+        text-align: justify;
+        font-size: 26px;
+        line-height: 1.7;
+    }
+.about__download {
+        margin-bottom: 40px;
+    }
+ 
+.about__descrip--skill{
+        height: 10em;
+        width: 100%;
+        margin-left: 0;
+        line-height: 1.7;
+        font-size: 26px;
+    }
+.service {
+        height: 1384px;
+        width: 100%;
+        margin-top: 0;
+        padding-top: 70px;
+    }
+    
+.service__base {
+        height: 22em;
+        width: 100%;
+        padding: 20px 0;
+        border-radius: 30px;
+        margin-bottom: 40px;
+    }
+
+.custom__job {
+        font-size: 20px;
+        width: 100%;
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+.custom__job a {
+        text-decoration: none;
+        color: #FF4C60;
+    }
+#spacer__ser {
+    display: none;
+   }
+   /* end */
+
+   /* exp */
+.exp {
+    height: 1605px;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 10px;
+   }
+.exp__edu {
+    margin-bottom: 40px;
+   }
+   /* end */
+
+  /* work */
+.work {
+    margin-top: 0;
+    height: 1362px;
+    width: 100%;
+    padding-top: 0;
+   }
+.work__base {
+    margin-bottom: 50px;
+   }
+.work__update {
+    display: none;
+   }
+.review {
+    height: 50em;
+    width: 100%;
+    margin-top: 90px;
+    }
+#slideshow {
+    width: 645px;
+}
+.slide {
+    float: left;
+    width: 645px;
+
+  }
+.slide__review {
+    width: 90%;
+    justify-content: center;
+}
+
+@keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -645px;}
+    50% {margin-left: -645px;}
+  } 
+  .review {
+    height: 51em;
+    width: 100%;
+    padding-bottom: 90px;
+}
+
+
+  /* end */
+  
+}
