@@ -220,6 +220,7 @@
   }
   .form__input {
    width: 100%;
+   border: solid;
   }
   
   .send__button {
